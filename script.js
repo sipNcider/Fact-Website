@@ -14,7 +14,7 @@ btn.addEventListener("click", function () {
             box.textContent = "I love femboys";
             break;
         case 4:
-            box.textContent = "Pecans";
+            box.textContent = "Bush did 9/11";
             break;
         case 5:
             box.textContent = "Eat more leek!";

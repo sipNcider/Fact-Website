@@ -2,7 +2,7 @@ const box = document.getElementById("fact-box");
 const btn = document.getElementById("button");
 
 btn.addEventListener("click", function () {
-    let randomNumber = Math.floor(Math.random() * 5) + 1;
+    let randomNumber = Math.floor(Math.random() * 6) + 1;
     switch (randomNumber) {
         case 1:
             box.textContent = "Miku LOOVEEE leek!!!";
@@ -18,6 +18,9 @@ btn.addEventListener("click", function () {
             break;
         case 5:
             box.textContent = "Eat more leek!";
+            break;
+        case 6:
+            box.textContent = "Never underestimate the power of Mexican rage";
             break;
         default:
             box.textContent = "smth wrong twin";

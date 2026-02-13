@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    width: 100%;
+    background-image: url("MikuMexico.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#header {
+    font-size: clamp(20px, 8vw, 60px);
+    text-align: center;
+    width: 100%;
+    background: linear-gradient(to right, rgb(86, 218, 196), rgba(255, 255, 255, 0));
+}
+
+#fact-box {
+    width: clamp(200px, 50%, 600px);
+    aspect-ratio: 1 / 1;
+    container-type: inline-size;
+
+    background: linear-gradient(to right, rgb(86, 218, 196), rgba(255, 255, 255, 0));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    font-size: clamp(12px, 15cqw, 50px);
+    padding: 10px;
+    border-style: dotted;
+}
+
+#button {
+    margin: 10px
+}
+
